@@ -1,0 +1,5 @@
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite seu segundo número: '))
+print('-'*30)
+print('Soma = {} \nSubtração = {} \nMultiplicação = {} \nDivisão = {} \nResto da divisão = {}'.format(num1+num2, num1-num2, num1*num2, num1/num2, num1%num2))
+print('-'*30)

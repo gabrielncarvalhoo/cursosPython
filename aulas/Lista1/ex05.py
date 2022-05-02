@@ -1,0 +1,6 @@
+num1 = float(input('Digite o valor: R$'))
+desc10 = num1 - (num1 * 0.10)
+desc20 = num1 - (num1 * 0.20)
+desc50 = num1 - (num1 * 0.50)
+print('O valor do produto é de R${:.2f}, com desconto vai ficar:'.format(num1))
+print('10% de desconto: R${:.2f} \n20% de desconto: R${:.2f} \n50% de desconto: R${:.2f}'.format(desc10, desc20, desc50))

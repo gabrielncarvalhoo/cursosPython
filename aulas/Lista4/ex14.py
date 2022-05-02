@@ -1,0 +1,12 @@
+termo = int(input('Quantos termos você quer mostrar? '))
+n1 = 0
+n2 = 1
+n3 = n1 + n2
+cont = 3
+print('{} → {}'.format(n1, n2), end=' ')
+while cont <= termo:
+    print('→ {}'.format(n3), end=' ')
+    n1 = n2
+    n2 = n3
+    n3 = n1 + n2
+    cont += 1
